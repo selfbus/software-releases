@@ -1,7 +1,4 @@
 Firmware for the LPC1115 based smokedetector module. 
-
-<h3>Abbreviations</h3>
-<p>
-SD - with socket detection (hardware greater or equal to v3.9.0 neccessary!) </br>
-BL - with selfbus bootloader 
-</p>
+</br></br>
+Files containing "flashstart" in their name are meant to be flashed through the Selfbus Updater!
+</br>Files without "flashstart" in their name shall be flashes by a debugger or Selfbus Progger. 
