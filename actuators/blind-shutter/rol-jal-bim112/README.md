@@ -8,3 +8,4 @@
 | release    | Stand alone firmware                                                                                            |
 | bf         | **EXPERIMENTAL** bus voltage failure and return handling (bus-fail)                                             |
 | ha         | hand actuation                                                                                                  |
+| -          | **Obsolete.** Starting with v1.11, all variants include hand actuation (ha)                                     |
