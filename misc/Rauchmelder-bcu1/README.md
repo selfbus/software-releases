@@ -1,4 +1,8 @@
-Firmware for the LPC1115 based smokedetector module. 
-</br></br>
-Files containing "flashstart" in their name are meant to be flashed through the Selfbus Updater!
-</br>Files without "flashstart" in their name shall be flashed by a debugger or Selfbus Progger. 
+# Firmware for the [LPC1115 based smokedetector module](https://selfbus.org/wiki/devices/sensors/6-smoke-detector-module).
+
+## File name abbreviations
+
+| abbr.      | Meaning                                                                                                         |
+|------------|-----------------------------------------------------------------------------------------------------------------|
+| flashstart | For use with the [Selfbus Firmware-updater](https://selfbus.org/wiki/software/tools/7-selfbus-bus-updater-tool) |
+| release    | Stand alone firmware                                                                                            |
