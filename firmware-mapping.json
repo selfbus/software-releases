@@ -494,6 +494,22 @@
     "o8": {
       "en": "8 outputs",
       "de": "8 Ausgänge"
+    },
+    "_bi4": {
+      "en": "4 inputs",
+      "de": "4 Eingänge"
+    },
+    "-bi6": {
+      "en": "6 inputs",
+      "de": "6 Eingänge"
+    },
+    "-bi8": {
+      "en": "8 inputs",
+      "de": "8 Eingänge"
+    },
+    "inverted": {
+      "en": "pull-up enabled",
+      "de": "Pull-Up aktiviert"
     }
   }
 }
