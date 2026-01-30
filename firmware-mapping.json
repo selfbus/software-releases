@@ -73,8 +73,11 @@
       },
       "wikiUrl": "https://selfbus.org/wiki/software/tools/7-selfbus-bus-updater-tool",
       "cachedFiles": [
-        "bootloader_release_v1.20_libv2.10.hex",
-        "bootloader_release_v1.10_libv2.02.hex"
+        "bootloader_release_(lpc11xx)_v1.11_libv2.02.hex",
+        "bootloader_release_aprog_(lpc11xx)_v1.11_libv2.02.hex",
+        "bootloader_release_aprog_v1.20_libv2.10.hex",
+        "bootloader_release_gnax_v1.20_libv2.10.hex",
+        "bootloader_release_v1.20_libv2.10.hex"
       ]
     },
     "out8-bcu1": {
@@ -90,12 +93,20 @@
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/outputs",
       "cachedFiles": [
-        "out8-bcu1_release_o8_4t_v5.10_libv2.02.hex",
-        "out8-bcu1_release_o8_4t_bi_v5.10_libv2.02.hex",
-        "out8-bcu1_release_o8_4t_ha_v5.12_libv2.10.hex",
-        "out8-bcu1_release_o8_4t_ha_bi_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_bf_ha_bi_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_bf_ha_bi_v5.12_libv2.10.hex",
         "out8-bcu1_release_o8_4t_bf_ha_v5.10_libv2.02.hex",
-        "out8-bcu1_release_o8_4t_bf_ha_bi_v5.10_libv2.02.hex"
+        "out8-bcu1_release_o8_4t_bf_ha_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_bf_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_bf_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_bi_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_bi_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_ha_bi_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_ha_bi_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_ha_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_ha_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_v5.12_libv2.10.hex"
       ]
     },
     "out-cs-bim112": {
@@ -112,8 +123,12 @@
       "wikiUrl": "https://selfbus.org/wiki/devices/outputs/22-switching-actuator-6x-current-sensing-230v-16a-6mount-units",
       "cachedFiles": [
         "out-cs-bim112_release_2ch_v1.20_libv2.02.hex",
+        "out-cs-bim112_release_2ch_v1.21_libv2.10.hex",
         "out-cs-bim112_release_2ch_wo_cs_v1.20_libv2.02.hex",
+        "out-cs-bim112_release_2ch_wo_cs_v1.21_libv2.10.hex",
         "out-cs-bim112_release_6ch_v1.20_libv2.02.hex",
+        "out-cs-bim112_release_6ch_v1.21_libv2.10.hex",
+        "out-cs-bim112_release_8ch_wo_cs_v1.20_libv2.02.hex",
         "out-cs-bim112_release_8ch_wo_cs_v1.21_libv2.10.hex"
       ]
     },
@@ -142,7 +157,10 @@
         "de": "8-fach Binäreingangsmodul"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/inputs",
-      "cachedFiles": []
+      "cachedFiles": [
+        "in8-bcu1_release_v1.10_libv2.02.hex",
+        "in8-bcu1_release_v1.10_libv2.10.hex"
+      ]
     },
     "in16-bim112": {
       "name": {
@@ -156,7 +174,29 @@
         "de": "16-fach Binäreingangsmodul"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/inputs",
-      "cachedFiles": []
+      "cachedFiles": [
+        "in16-bim112_release_bi16_4te_inverted_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi16_4te_inverted_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi16_4te_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi16_4te_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi16_fused_ios_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi16_ts_arm_inverted_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi16_ts_arm_inverted_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi16_ts_arm_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi16_ts_arm_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi4_ts_arm_inverted_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi4_ts_arm_inverted_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi4_ts_arm_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi4_ts_arm_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi8_4te_inverted_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi8_4te_inverted_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi8_4te_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi8_4te_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi8_ts_arm_inverted_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi8_ts_arm_inverted_v1.12_libv2.10.hex",
+        "in16-bim112_release_bi8_ts_arm_v1.11_libv2.02.hex",
+        "in16-bim112_release_bi8_ts_arm_v1.12_libv2.10.hex"
+      ]
     },
     "4sense-bcu1": {
       "name": {
@@ -170,7 +210,11 @@
         "de": "4-fach Temperatursensor"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/sensors",
-      "cachedFiles": []
+      "cachedFiles": [
+        "4sense-bcu1_release_4te_v1.10_libv2.10.hex",
+        "4sense-bcu1_release_ts_arm_v1.10_libv2.10.hex",
+        "4sense-bcu1_release_v1.10_libv2.02.hex"
+      ]
     },
     "weatherstation-bim112": {
       "name": {
@@ -184,7 +228,10 @@
         "de": "Wetterstationsmodul"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/sensors",
-      "cachedFiles": []
+      "cachedFiles": [
+        "weatherstation-bim112_release_v0.01_libv2.02.hex",
+        "weatherstation-bim112_release_v0.01_libv2.10.hex"
+      ]
     },
     "rol-jal-bim112": {
       "name": {
@@ -198,7 +245,11 @@
         "de": "Rolladen- und Jalousieaktor"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/outputs",
-      "cachedFiles": []
+      "cachedFiles": [
+        "rol-jal-bim112_release_bf_ha_v1.11_libv2.10.hex",
+        "rol-jal-bim112_release_ha_v1.11_libv2.10.hex",
+        "rol-jal-bim112_release_v1.10_libv2.02.hex"
+      ]
     },
     "usb-interface-bcu1": {
       "name": {
@@ -212,7 +263,12 @@
         "de": "USB-KNX-Schnittstelle"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/interfaces",
-      "cachedFiles": []
+      "cachedFiles": [
+        "usb-if_knx_release_v1.10_libv2.02.hex",
+        "usb-if_knx_release_v1.10_libv2.10.hex",
+        "usb-if_usb_release_v1.10_libv2.02.hex",
+        "usb-if_usb_release_v1.10_libv2.10.hex"
+      ]
     },
     "ft12": {
       "name": {
@@ -226,7 +282,10 @@
         "de": "FT1.2 Protokoll-Schnittstelle"
       },
       "wikiUrl": "https://selfbus.org/wiki/devices/interfaces",
-      "cachedFiles": []
+      "cachedFiles": [
+        "ft12_release_v0.01_libv2.02.hex",
+        "ft12_release_v0.02_libv2.10.hex"
+      ]
     },
     "rauchmelder-bcu1": {
       "name": {
@@ -252,7 +311,7 @@
         "en": "rgbswitch-6-bcu1",
         "de": "rgbswitch-6-bcu1"
       },
-      "category": "bootloader",
+      "category": "inputs",
       "path": "sensors/binary-inputs/RGBswitch_6-bcu1",
       "description": {
         "en": "",
@@ -264,7 +323,117 @@
         "rgbswitch_6-bcu1_release_v1.10_libv2.10.hex"
       ]
     },
-    "MultiSensorAktor": {
+    "rain-bim112": {
+      "name": {
+        "en": "rain-bim112",
+        "de": "rain-bim112"
+      },
+      "category": "inputs",
+      "path": "sensors/binary-inputs/rain-bim112",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "rain-bim112_release_v1.00_libv2.02.hex",
+        "rain-bim112_release_v1.00_libv2.10.hex"
+      ]
+    },
+    "4volt-bcu1": {
+      "name": {
+        "en": "4volt-bcu1",
+        "de": "4volt-bcu1"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/4volt-bcu1",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "4volt-bcu1_release_v1.10_libv2.02.hex",
+        "4volt-bcu1_release_v1.10_libv2.10.hex"
+      ]
+    },
+    "rtr-lcd-voc-rh-sensor-bcu1": {
+      "name": {
+        "en": "RTR_lcd_voc_rh_sensor-bcu1",
+        "de": "RTR_lcd_voc_rh_sensor-bcu1"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/RTR_lcd_voc_rh_sensor-bcu1",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "rtr_lcd_voc_rh_sensor-bcu1_release_v1.10_libv2.02.hex"
+      ]
+    },
+    "rtr-lcd-voc-rh-sensor-bim112": {
+      "name": {
+        "en": "RTR_lcd_voc_rh_sensor-bim112",
+        "de": "RTR_lcd_voc_rh_sensor-bim112"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/RTR_lcd_voc_rh_sensor-bim112",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "rtr_lcd_voc_rh_sensor-bim112_release_v1.11_libv2.10.hex"
+      ]
+    },
+    "dustsensor-bcu1": {
+      "name": {
+        "en": "dustsensor-bcu1",
+        "de": "dustsensor-bcu1"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/dustsensor-bcu1",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "dustsensor-bcu1_release_v1.10_libv2.02.hex",
+        "dustsensor-bcu1_release_v1.10_libv2.10.hex"
+      ]
+    },
+    "lightsensor-bcu1": {
+      "name": {
+        "en": "lightsensor-bcu1",
+        "de": "lightsensor-bcu1"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/lightsensor-bcu1",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "lightsensor-bcu1_release_v1.10_libv2.02.hex",
+        "lightsensor-bcu1_release_v1.10_libv2.10.hex"
+      ]
+    },
+    "raincenter-bim112": {
+      "name": {
+        "en": "raincenter-bim112",
+        "de": "raincenter-bim112"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/raincenter-bim112",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "cachedFiles": [
+        "raincenter-bim112_release_ts_arm_v0.41_libv2.02.hex",
+        "raincenter-bim112_release_ts_arm_v0.41_libv2.10.hex"
+      ]
+    },
+    "multisensoraktor": {
       "name": {
         "en": "MultiSensorAktor",
         "de": "MultiSensorAktor"
@@ -272,11 +441,13 @@
       "category": "sensors",
       "path": "misc/MultiSensorAktor",
       "description": {
-        "en": "MultiSensorAktor",
-        "de": "MultiSensorAktor"
+        "en": "",
+        "de": ""
       },
-      "wikiUrl": "",
-      "cachedFiles": []
+      "cachedFiles": [
+        "multisensoraktor_release_v0.10_libv2.02.hex",
+        "multisensoraktor_release_v0.11_libv2.10.hex"
+      ]
     }
   },
   "firmwareHints": {
