@@ -1,0 +1,328 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-30",
+  "categories": {
+    "bootloader": {
+      "name": {
+        "en": "Bootloader",
+        "de": "Bootloader"
+      },
+      "icon": "🚀",
+      "order": 0
+    },
+    "outputs": {
+      "name": {
+        "en": "Outputs",
+        "de": "Ausgänge"
+      },
+      "icon": "💡",
+      "order": 1
+    },
+    "inputs": {
+      "name": {
+        "en": "Inputs",
+        "de": "Eingänge"
+      },
+      "icon": "🔘",
+      "order": 2
+    },
+    "sensors": {
+      "name": {
+        "en": "Sensors",
+        "de": "Sensoren"
+      },
+      "icon": "🌡️",
+      "order": 3
+    },
+    "blinds": {
+      "name": {
+        "en": "Blinds/Shutters",
+        "de": "Rolläden/Jalousien"
+      },
+      "icon": "▦",
+      "order": 4
+    },
+    "interfaces": {
+      "name": {
+        "en": "Interfaces",
+        "de": "Schnittstellen"
+      },
+      "icon": "🔌",
+      "order": 5
+    },
+    "misc": {
+      "name": {
+        "en": "Miscellaneous",
+        "de": "Sonstiges"
+      },
+      "icon": "📦",
+      "order": 6
+    }
+  },
+  "devices": {
+    "bootloader": {
+      "name": {
+        "en": "Selfbus Bootloader",
+        "de": "Selfbus Bootloader"
+      },
+      "category": "bootloader",
+      "path": "firmware_updater/bootloader",
+      "description": {
+        "en": "Bootloader for firmware updates via KNX bus",
+        "de": "Bootloader für Firmware-Updates über den KNX-Bus"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/software/tools/7-selfbus-bus-updater-tool",
+      "cachedFiles": [
+        "bootloader_release_v1.20_libv2.10.hex",
+        "bootloader_release_v1.10_libv2.02.hex"
+      ]
+    },
+    "out8-bcu1": {
+      "name": {
+        "en": "8-channel Binary Output (BCU1)",
+        "de": "8-fach Binärausgang (BCU1)"
+      },
+      "category": "outputs",
+      "path": "actuators/outputs/out8-bcu1",
+      "description": {
+        "en": "8-channel binary output module for BCU1",
+        "de": "8-fach Binärausgangsmodul für BCU1"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/outputs",
+      "cachedFiles": [
+        "out8-bcu1_release_o8_4t_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_bi_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_ha_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_ha_bi_v5.12_libv2.10.hex",
+        "out8-bcu1_release_o8_4t_bf_ha_v5.10_libv2.02.hex",
+        "out8-bcu1_release_o8_4t_bf_ha_bi_v5.10_libv2.02.hex"
+      ]
+    },
+    "out-cs-bim112": {
+      "name": {
+        "en": "Switching Actuator with Current Sensing (BIM112)",
+        "de": "Schaltaktor strommessend (BIM112)"
+      },
+      "category": "outputs",
+      "path": "actuators/outputs/out-cs-bim112",
+      "description": {
+        "en": "2/6/8-channel switching actuator with current sensing",
+        "de": "2/6/8-fach Schaltaktor mit Strommessung"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/outputs/22-switching-actuator-6x-current-sensing-230v-16a-6mount-units",
+      "cachedFiles": [
+        "out-cs-bim112_release_2ch_v1.20_libv2.02.hex",
+        "out-cs-bim112_release_2ch_wo_cs_v1.20_libv2.02.hex",
+        "out-cs-bim112_release_6ch_v1.20_libv2.02.hex",
+        "out-cs-bim112_release_8ch_wo_cs_v1.21_libv2.10.hex"
+      ]
+    },
+    "out4-dimmer": {
+      "name": {
+        "en": "4-channel LED Dimmer",
+        "de": "4-fach LED Dimmer"
+      },
+      "category": "outputs",
+      "path": "actuators/outputs/out4-dimmer",
+      "description": {
+        "en": "4-channel PWM LED dimmer",
+        "de": "4-fach PWM LED Dimmer"
+      },
+      "cachedFiles": []
+    },
+    "in8-bcu1": {
+      "name": {
+        "en": "8-channel Binary Input (BCU1)",
+        "de": "8-fach Binäreingang (BCU1)"
+      },
+      "category": "inputs",
+      "path": "sensors/binary-inputs/in8-bcu1",
+      "description": {
+        "en": "8-channel binary input module",
+        "de": "8-fach Binäreingangsmodul"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/inputs",
+      "cachedFiles": []
+    },
+    "in16-bim112": {
+      "name": {
+        "en": "16-channel Binary Input (BIM112)",
+        "de": "16-fach Binäreingang (BIM112)"
+      },
+      "category": "inputs",
+      "path": "sensors/binary-inputs/in16-bim112",
+      "description": {
+        "en": "16-channel binary input module",
+        "de": "16-fach Binäreingangsmodul"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/inputs",
+      "cachedFiles": []
+    },
+    "4sense-bcu1": {
+      "name": {
+        "en": "4-channel Temperature Sensor (BCU1)",
+        "de": "4-fach Temperatursensor (BCU1)"
+      },
+      "category": "sensors",
+      "path": "sensors/misc/4sense-bcu1",
+      "description": {
+        "en": "4-channel temperature sensor",
+        "de": "4-fach Temperatursensor"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/sensors",
+      "cachedFiles": []
+    },
+    "weatherstation-bim112": {
+      "name": {
+        "en": "Weather Station (BIM112)",
+        "de": "Wetterstation (BIM112)"
+      },
+      "category": "sensors",
+      "path": "misc/weatherstation-bim112",
+      "description": {
+        "en": "Weather station module",
+        "de": "Wetterstationsmodul"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/sensors",
+      "cachedFiles": []
+    },
+    "rol-jal-bim112": {
+      "name": {
+        "en": "Blind/Shutter Actuator (BIM112)",
+        "de": "Rolladen-/Jalousieaktor (BIM112)"
+      },
+      "category": "blinds",
+      "path": "actuators/blind-shutter/rol-jal-bim112",
+      "description": {
+        "en": "Blind and shutter actuator",
+        "de": "Rolladen- und Jalousieaktor"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/outputs",
+      "cachedFiles": []
+    },
+    "usb-interface-bcu1": {
+      "name": {
+        "en": "USB Interface (BCU1)",
+        "de": "USB Interface (BCU1)"
+      },
+      "category": "interfaces",
+      "path": "misc/USB-Interface-bcu1",
+      "description": {
+        "en": "USB to KNX interface",
+        "de": "USB-KNX-Schnittstelle"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/interfaces",
+      "cachedFiles": []
+    },
+    "ft12": {
+      "name": {
+        "en": "FT12 Interface",
+        "de": "FT12 Schnittstelle"
+      },
+      "category": "interfaces",
+      "path": "misc/FT12",
+      "description": {
+        "en": "FT1.2 protocol interface",
+        "de": "FT1.2 Protokoll-Schnittstelle"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/interfaces",
+      "cachedFiles": []
+    },
+    "rauchmelder-bcu1": {
+      "name": {
+        "en": "Smoke Detector (BCU1)",
+        "de": "Rauchmelder (BCU1)"
+      },
+      "category": "misc",
+      "path": "misc/Rauchmelder-bcu1",
+      "description": {
+        "en": "Smoke detector module for LPC1115",
+        "de": "Rauchmeldermodul für LPC1115"
+      },
+      "wikiUrl": "https://selfbus.org/wiki/devices/sensors/6-smoke-detector-module",
+      "cachedFiles": [
+        "rauchmelder-bcu1_release_v1.03_libv2.02.hex",
+        "rauchmelder-bcu1_release_v3.00_libv2.02.hex",
+        "rauchmelder-bcu1_release_v3.00_libv2.10.hex",
+        "rauchmelder-bcu1_release_v3.10_libv2.10.hex"
+      ]
+    },
+    "rgbswitch-6-bcu1": {
+      "name": {
+        "en": "rgbswitch-6-bcu1",
+        "de": "rgbswitch-6-bcu1"
+      },
+      "category": "bootloader",
+      "path": "sensors/binary-inputs/RGBswitch_6-bcu1",
+      "description": {
+        "en": "",
+        "de": ""
+      },
+      "wikiUrl": "",
+      "cachedFiles": [
+        "rgbswitch_6-bcu1_release_v1.10_libv2.02.hex",
+        "rgbswitch_6-bcu1_release_v1.10_libv2.10.hex"
+      ]
+    },
+    "MultiSensorAktor": {
+      "name": {
+        "en": "MultiSensorAktor",
+        "de": "MultiSensorAktor"
+      },
+      "category": "sensors",
+      "path": "misc/MultiSensorAktor",
+      "description": {
+        "en": "MultiSensorAktor",
+        "de": "MultiSensorAktor"
+      },
+      "wikiUrl": "",
+      "cachedFiles": []
+    }
+  },
+  "firmwareHints": {
+    "release": {
+      "en": "Standalone firmware - flash directly via ISP",
+      "de": "Standalone Firmware - direkt per ISP flashen"
+    },
+    "_bi": {
+      "en": "For bistable (latching) relays",
+      "de": "Für bistabile (Stromstoß-) Relais"
+    },
+    "_ha": {
+      "en": "With hand actuation support",
+      "de": "Mit Handbetätigung"
+    },
+    "_bf": {
+      "en": "With bus failure handling",
+      "de": "Mit Busspannungsausfall-Behandlung"
+    },
+    "_wo_cs": {
+      "en": "Without current sensing",
+      "de": "Ohne Strommessung"
+    },
+    "_cs": {
+      "en": "With current sensing",
+      "de": "Mit Strommessung"
+    },
+    "2ch": {
+      "en": "2-channel variant",
+      "de": "2-Kanal Variante"
+    },
+    "6ch": {
+      "en": "6-channel variant",
+      "de": "6-Kanal Variante"
+    },
+    "8ch": {
+      "en": "8-channel variant",
+      "de": "8-Kanal Variante"
+    },
+    "4t": {
+      "en": "With 4 timers",
+      "de": "Mit 4 Zeitschaltuhren"
+    },
+    "o8": {
+      "en": "8 outputs",
+      "de": "8 Ausgänge"
+    }
+  }
+}
