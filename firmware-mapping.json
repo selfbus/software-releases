@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-02-02",
   "categories": {
     "bootloader": {
       "name": {
@@ -131,19 +131,6 @@
         "out-cs-bim112_release_8ch_wo_cs_v1.20_libv2.02.hex",
         "out-cs-bim112_release_8ch_wo_cs_v1.21_libv2.10.hex"
       ]
-    },
-    "out4-dimmer": {
-      "name": {
-        "en": "4-channel LED Dimmer",
-        "de": "4-fach LED Dimmer"
-      },
-      "category": "outputs",
-      "path": "actuators/outputs/out4-dimmer",
-      "description": {
-        "en": "4-channel PWM LED dimmer",
-        "de": "4-fach PWM LED Dimmer"
-      },
-      "cachedFiles": []
     },
     "in8-bcu1": {
       "name": {
@@ -457,10 +444,10 @@
     },
     "_bi": {
       "en": "For bistable (latching) relays",
-      "de": "Für bistabile (Stromstoß-) Relais"
+      "de": "Für bistabile Relais"
     },
     "_ha": {
-      "en": "With hand actuation support",
+      "en": "With hand actuation",
       "de": "Mit Handbetätigung"
     },
     "_bf": {
@@ -472,8 +459,8 @@
       "de": "Ohne Strommessung"
     },
     "_cs": {
-      "en": "With current sensing",
-      "de": "Mit Strommessung"
+      "en": "current sensing",
+      "de": "strommessend"
     },
     "2ch": {
       "en": "2-channel variant",
@@ -488,8 +475,8 @@
       "de": "8-Kanal Variante"
     },
     "4t": {
-      "en": "With 4 timers",
-      "de": "Mit 4 Zeitschaltuhren"
+      "en": "4 timers",
+      "de": "4 Timer"
     },
     "o8": {
       "en": "8 outputs",
@@ -499,17 +486,37 @@
       "en": "4 inputs",
       "de": "4 Eingänge"
     },
-    "-bi6": {
+    "_bi6": {
       "en": "6 inputs",
       "de": "6 Eingänge"
     },
-    "-bi8": {
+    "_bi8": {
       "en": "8 inputs",
       "de": "8 Eingänge"
     },
     "inverted": {
       "en": "pull-up enabled",
       "de": "Pull-Up aktiviert"
+    },
+    "aprog": {
+      "en": "alternative program button",
+      "de": "alternativer Prog.-Taster"
+    },
+    "gnax": {
+      "en": "lpc1115_io16_FM (gnax) controller",
+      "de": "lpc1115_io16_FM (gnax) controller"
+    },
+    "4te": {
+      "en": "4MU Middle Controller",
+      "de": "4TE Mittel-Controller"
+    },
+    "ts_arm": {
+      "en": "FM Controller (TS_ARM)",
+      "de": "UP-Controller (TS_ARM)"
+    },
+    "fused_io": {
+      "en": "FM Controller (io-xxx-fused)",
+      "de": "UP-Controller (io-xxx-fused)"
     }
   }
 }
