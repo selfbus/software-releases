@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-09",
   "categories": {
     "bootloader": {
       "name": {
@@ -475,8 +475,8 @@
       "de": "8-Kanal Variante"
     },
     "4t": {
-      "en": "4 timers",
-      "de": "4 Timer"
+      "en": "4 MU",
+      "de": "4 TE"
     },
     "o8": {
       "en": "8 outputs",
@@ -507,8 +507,8 @@
       "de": "lpc1115_io16_FM (gnax) controller"
     },
     "4te": {
-      "en": "4MU Middle Controller",
-      "de": "4TE Mittel-Controller"
+      "en": "4 MU Middle Controller",
+      "de": "4 TE Mittel-Controller"
     },
     "ts_arm": {
       "en": "FM Controller (TS_ARM)",
